@@ -24,13 +24,8 @@ function third() {
         thirdButton.click()
     }
 }
-ticker = 0
-for (let i =0; i<20; i++) {
+for (let i =0; i<100; i++) {
 setTimeout(first, 4000 + i*3000)
 setTimeout(second, 5000 + i*3000)
 setTimeout(third, 6000 + i*3000)
 }
-
-//setTimeout(first, 9000)
-//setTimeout(second, 10000)
-//setTimeout(third, 11000)

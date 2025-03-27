@@ -1,2 +1,10 @@
-README
-Build a LinkedIn chrome extension that automatically deletes connections
+This extension deletes 100 connections at a time.
+
+STEP 1:
+    Enable extension
+
+STEP 2:
+    Go to https://www.linkedin.com/mynetwork/invite-connect/connections/
+
+Step 3:
+    Enjoy
