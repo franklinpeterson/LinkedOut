@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedOut",
+    "version": "1.0",
+    "description": "Easily delete LinkedIn connections",
+    "icons": {"128": "gray.png"},
+    "content_scripts": [
+        {
+            "js": ["content.js"],
+            "matches": ["https://*.linkedin.com/*"]
+    }
+    ]
+}
