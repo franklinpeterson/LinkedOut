@@ -1,27 +1,36 @@
 
 
-function getElement() {
-    const firstButton = document.querySelector('[id="ember44"]')
+function first() {
+    let firstButton = document.querySelector('[class="artdeco-dropdown__trigger artdeco-dropdown__trigger--placement-bottom ember-view mn-connection-card__dropdown-trigger artdeco-button--tertiary artdeco-button--muted artdeco-button--circle p1"]')
     console.log("first button: ", firstButton)
-    firstButton.click()
+    if (firstButton) {
+        firstButton.click()
+    }
 
 }
 
 function second() {
-    const secondButton = document.querySelector('[class="display-flex align-items-center t-14 t-black--light t-normal"]')
+    let secondButton = document.querySelector('[class="display-flex align-items-center t-14 t-black--light t-normal"]')
     console.log("second button: ", secondButton)
-    secondButton.click()
+    if (secondButton) { 
+        secondButton.click()
+    }
 }
 
 function third() {
-    const thirdButton = document.querySelector('[class="artdeco-button artdeco-button--2 artdeco-button--primary ember-view artdeco-modal__confirm-dialog-btn"]')
-    thirdButton.click()
+    let thirdButton = document.querySelector('[class="artdeco-button artdeco-button--2 artdeco-button--primary ember-view artdeco-modal__confirm-dialog-btn"]')
+    console.log("third button: ", thirdButton)
+    if (thirdButton) {
+        thirdButton.click()
+    }
+}
+ticker = 0
+for (let i =0; i<20; i++) {
+setTimeout(first, 4000 + i*3000)
+setTimeout(second, 5000 + i*3000)
+setTimeout(third, 6000 + i*3000)
 }
 
-function reload () {
-    window.location.reload()
-}
-setTimeout(getElement, 2000)
-setTimeout(second, 3000)
-setTimeout(third, 4000)
-setTimeout(reload, 5000)
+//setTimeout(first, 9000)
+//setTimeout(second, 10000)
+//setTimeout(third, 11000)
