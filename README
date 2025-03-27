@@ -1,7 +1,7 @@
 This extension deletes 100 LinkedIn connections at a time, starting from most recent.
 
 Step 1:
-    Download ZIP and double click it.
+    Click green "Code" button, download ZIP and unzip the file.
 
 Step 2:
     Go to chrome://extensions and turn on developer mode in the top right.
@@ -13,4 +13,4 @@ Step 4:
     Go to https://www.linkedin.com/mynetwork/invite-connect/connections/
 
 Step 5:
-    Enjoy as your connections are deleted
+    Enjoy as your connections are deleted.
