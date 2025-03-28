@@ -9,5 +9,12 @@
             "js": ["content.js"],
             "matches": ["https://*.linkedin.com/*"]
     }
-    ]
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup/dist/index.html"
+    },
+    "permissions": ["tabs"]
 }

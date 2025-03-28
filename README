@@ -1,4 +1,6 @@
-This extension deletes 100 LinkedIn connections at a time, starting from most recent.
+This extension can automatically add or delete extensions depending on your preference.
+It adds as many as you have loaded on the page(scroll for more) or deletes 100 connections at a time.
+There are some bugs with "add connections", sometimes it tries to add people multiple times.
 
 Step 1:
     Click green "Code" button, download ZIP and unzip the file.
@@ -10,7 +12,5 @@ Step 3:
     Click "Load Unpacked" in the top left and upload the extracted folder(not the zip). Enable the extension.
 
 Step 4:
-    Go to https://www.linkedin.com/mynetwork/invite-connect/connections/
-
-Step 5:
-    Enjoy as your connections are deleted.
+    To add connections, go to https://www.linkedin.com/mynetwork/grow/ and press the green button.
+    To delete connections, go to https://www.linkedin.com/mynetwork/invite-connect/connections/ and press the red button.
